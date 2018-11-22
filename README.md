@@ -7,5 +7,5 @@
 Далее данные папки необходимо перенести непосредственно в папку с тестами.
 
 Запустить тесты можно при помощи команды:
-```node nightwatch.js -t tests/OborotRu.js```
+```node nightwatch.js -t tests/OborotRU.js```
 
