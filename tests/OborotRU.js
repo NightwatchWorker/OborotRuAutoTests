@@ -2,7 +2,7 @@ var item = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
 var commentNumber = Math.floor(Math.random() * (1000 - 1 + 1)) + 1;
 
 module.exports = {
-  tags: ['google'],
+  tags: ['OborotRU'],
   'Test task' : function (client) {
     client
       .url('http://oborot-dev.ru/tester/8ac42343cf7f89acc5f51f05b14a8e70')
