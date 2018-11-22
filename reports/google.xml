@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="google"
+    errors="1" failures="0" hostname="" id="" package="google" skipped="0"
+    tests="1" time="0.01300" timestamp="Tue, 20 Nov 2018 18:54:20 GMT">
+  
+    <testcase name="Test task" classname="google" time="0.01300" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Google / Test task]:
+
+  TypeError: Cannot read property &#39;to&#39; of undefined
+    at Object.Test task (E:\project\tests\google.js:40:53)
+    at Module.call (E:\project\nightwatch\lib\runner\module.js:62:34)
+    at E:\project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (E:\project\nightwatch\node_modules\q\q.js:834:54)
+    at E:\project\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (E:\project\nightwatch\node_modules\q\q.js:796:13)
+    at E:\project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (E:\project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (E:\project\nightwatch\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
