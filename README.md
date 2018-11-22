@@ -6,4 +6,7 @@
 
 Запустить тесты можно при помощи команды:
 ```node nightwatch.js -t tests/OborotRu.js```
+<<<<<<< HEAD
 
+=======
+>>>>>>> 34c1bafdbb1a4a326cd0c17098033e2dff2fd64e
